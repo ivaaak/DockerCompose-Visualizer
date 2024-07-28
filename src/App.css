@@ -1,0 +1,72 @@
+#root {
+  margin: 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.diagram-container {
+  height: 70vh;
+  width: 70vw;
+  background-color: rgb(60, 60, 60);
+}
+
+.services-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.service-item {
+  background-color: #414141;
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+}
+
+.visualizer-container {
+  display: flex;
+  height: 600px;
+  width: 80vw;
+}
+
+.service-legend {
+  width: 350px;
+  height: 800px;
+  padding: 10px;
+  overflow-y: auto;
+}
+
+.services-list {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  margin-bottom: 20px;
+}
+
+.service-item {
+  padding: 5px 10px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  color: white;
+  text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+}
+
+.color-legend {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.legend-item {
+  display: flex;
+  align-items: center;
+  font-size: 0.8em;
+}
+
+.color-box {
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border-radius: 3px;
+}
